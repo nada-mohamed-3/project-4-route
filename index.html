@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+     <link rel="stylesheet" href="access/css/bootstrap.min.css">
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="access/css/all.css">
+
+     <!-- style -->
+      <link rel="stylesheet" href="access/css/style.css">
+</head>
+<body>
+     
+    <section class="login-form">
+        <div class="container">
+          <div class="form w-50 mx-auto my-5 p-5 text-center">
+            <h1 class="mb-3">Smart Login System</h1>
+            <div class="inputs">
+              <input
+                class="form-control mb-3 bg-transparent text-white"
+                type="email"
+                id="emailInput"
+                placeholder="Enter your email"
+              />
+              <input
+                class="form-control mb-3 bg-transparent text-white"
+                type="password"
+                id="passInput"
+                placeholder="Enter your password"
+              />
+              <p id="warnMsg" class="text-danger d-none"></p>
+  
+              <button id="loginBtn" class="btn w-100 btn-outline-primary mb-3">
+                Login
+              </button>
+  
+              <p class="text-white">
+                Dont have an account?
+                <a class="text-white" href="./signup.html">Sign Up</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="access/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- index js-->
+    <script src="access/js/index.js"></script>
+
+    <!-- login js -->
+     <script src="access/js/login.js"></script>
+</body>
+</html>
